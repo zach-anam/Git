@@ -1,0 +1,35 @@
+*,
+::before,
+::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000px;
+}
+
+
+h1 {
+    color: #1877f2;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 12%), 0 2px 4px 0 rgb(0 0 0 / 8%);
+    width: fit-content;
+    padding: 15px 40px;
+    border-radius: .75rem;
+    margin: 4% auto;
+    transition: .3s ease-in-out;
+}
+
+h1:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+h1 span {
+    font-size: .8rem;
+    color: #000;
+}
+
+.container .row {
+    margin: 0 auto;
+    justify-content: center;
+}
